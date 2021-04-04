@@ -55,12 +55,6 @@ public class MaxHeap {
         }
     }
 
-    // public static void buildMaxHeap(int[] heap) {
-    //     for(int i = (heap.length)/2 - 1; i >= 0; i--) {
-    //         heapify(heap, i, heap.length);
-    //     }
-    // }
-
     public void printMaxHeap() {
         for(int i = 0; i < size; i++) {
             System.out.print(heap[i] + " ");
