@@ -1,4 +1,4 @@
-// Bayer Moore algorithm to find majority element in an array 
+// Boyer-Moore algorithm to find majority element in an array 
 // Majority element is the one that appears more than n/2 times, where n is the length of the array
 public class BoyerMoore {
     public static void main(String[] args) {
